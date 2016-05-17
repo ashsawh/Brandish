@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'required' => ':attribute: is required.',
+    'characters' => ':attribute: must between :min: and :max: total characters.',
+    'longer' => ':attribute: must be longer than :max: characters.',
+    'shorter' => ':attribute: must be shorter than :min: characters.',
+    'wide' => ':attribute: must be exactly :value: characters wide.',
+    'longer' => ':attribute: must be more than :max:.',
+    'shorter' => ':attribute: must be less than :min:.',
+    'exact' => ':attribute: must be exactly :value:.',
+    'between' => ':attribute: must between :min: and :max:.',
+    'alpha' => ':attribute: is limited to alphabetical characters.',
+    'alphanumeric' => ':attribute: is limited to numerical and alphabetical characters.',
+    'sentence' => ':attribute: is limited to characters typically used in sentences.',
+    'numeric' => ':attribute: is limited to numerical characters.',
+    'bool' => ':attribute: must be a boolean.',
+    'email' => ':attribute: is an invalid email address.',
+    'url' => ':attribute: is an invalid url.',
+    'ip' => ':attribute: is an invalid ip address.',
+    'float' => ':attribute: must be a floating point number.',
+    'username' => ':attribute: is not an acceptable username.',
+    'password' => ':attribute: is not an acceptable password.',
+    'complexpassword' => ':attribute: is does not meet the password criteria.',
+    'in' => ':attribute: is limited to :values:.',
+    'notin' => ':attribute: can\'t be :values:.',
+    'accepted' => ':attribute: must be accepted.',
+    'confirmed' => ':attribute: confirmation must match :value:.',	
+    'same' => ':attribute: must be the same as :value:.',
+    'uniqueindb' => ':attribute: is not unique.',
+    'indb' => ':attribute: does not exist.'
+];
